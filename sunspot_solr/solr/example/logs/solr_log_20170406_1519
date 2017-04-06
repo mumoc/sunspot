@@ -1,0 +1,34 @@
+INFO  - 2017-04-06 20:17:45.906; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2017-04-06 20:17:45.923; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example/contexts at interval 0
+INFO  - 2017-04-06 20:17:45.929; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example/contexts/solr-jetty-context.xml
+INFO  - 2017-04-06 20:17:46.718; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-04-06 20:17:46.769; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2017-04-06 20:17:46.781; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2017-04-06 20:17:46.782; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /Users/mumoc/projects/magmalabs/danube/solr
+INFO  - 2017-04-06 20:17:46.782; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/mumoc/projects/magmalabs/danube/solr/'
+INFO  - 2017-04-06 20:17:46.899; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/mumoc/projects/magmalabs/danube/solr/solr.xml
+INFO  - 2017-04-06 20:17:46.964; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/mumoc/projects/magmalabs/danube/solr
+INFO  - 2017-04-06 20:17:46.969; org.apache.solr.core.CoreContainer; New CoreContainer 1528195520
+INFO  - 2017-04-06 20:17:46.969; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/mumoc/projects/magmalabs/danube/solr/]
+INFO  - 2017-04-06 20:17:46.980; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 600000
+INFO  - 2017-04-06 20:17:46.981; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2017-04-06 20:17:46.984; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 60000
+INFO  - 2017-04-06 20:17:46.984; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2017-04-06 20:17:46.985; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2017-04-06 20:17:46.985; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2017-04-06 20:17:46.986; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2017-04-06 20:17:46.986; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2017-04-06 20:17:46.986; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2017-04-06 20:17:47.119; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=false
+INFO  - 2017-04-06 20:17:47.120; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2017-04-06 20:17:47.122; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2017-04-06 20:17:47.123; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2017-04-06 20:17:47.173; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/mumoc/projects/magmalabs/danube/solr
+INFO  - 2017-04-06 20:17:47.176; org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2017-04-06 20:17:47.182; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example
+INFO  - 2017-04-06 20:17:47.182; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2017-04-06 20:17:47.199; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8982
+INFO  - 2017-04-06 20:19:27.324; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8982
+INFO  - 2017-04-06 20:19:27.325; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example/solr-webapp/webapp/},/Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example/webapps/solr.war
+INFO  - 2017-04-06 20:19:28.330; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1528195520
+INFO  - 2017-04-06 20:19:28.336; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example/solr-webapp/webapp/},/Users/mumoc/projects/magmalabs/sunspot/sunspot_solr/solr/example/webapps/solr.war
